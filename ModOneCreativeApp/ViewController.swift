@@ -1,9 +1,3 @@
-//
-//  ViewController.swift
-//  ModOneCreativeApp
-//
-//  Created by AVA SCHMIDT on 8/22/24.
-//
 
 import UIKit
 
