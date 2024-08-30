@@ -15,37 +15,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="sXU-kL-voS">
-                                <rect key="frame" x="66" y="138" width="260" height="557"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="sXU-kL-voS">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="POCKET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RA6-yV-1SK">
-                                        <rect key="frame" x="0.0" y="0.0" width="260" height="92.666666666666671"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pocket Bank" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RA6-yV-1SK">
+                                        <rect key="frame" x="27.333333333333343" y="0.0" width="338.33333333333326" height="170.33333333333334"/>
                                         <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="60"/>
                                         <color key="textColor" red="0.44366546849999999" green="0.559282999" blue="0.54555338580000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BANK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogs-77-TPv">
-                                        <rect key="frame" x="0.0" y="103.66666666666666" width="260" height="92.666666666666657"/>
-                                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="60"/>
-                                        <color key="textColor" red="0.44366546846973443" green="0.55928299904845358" blue="0.54555338578856982" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="46" translatesAutoresizingMaskIntoConstraints="NO" id="nWf-kP-JwY">
-                                        <rect key="frame" x="0.0" y="207.33333333333334" width="260" height="34.333333333333343"/>
+                                        <rect key="frame" x="67.333333333333343" y="179.33333333333334" width="258.33333333333326" height="42.666666666666657"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bI9-Lh-FIv">
-                                                <rect key="frame" x="0.0" y="0.0" width="10.333333333333334" height="34.333333333333336"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="10.333333333333334" height="42.666666666666664"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Deposit" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0dI-iE-LbI">
-                                                <rect key="frame" x="56.333333333333336" y="0.0" width="79.666666666666657" height="34.333333333333336"/>
+                                                <rect key="frame" x="56.333333333333343" y="0.0" width="78" height="42.666666666666664"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XtT-tL-pJH">
-                                                <rect key="frame" x="182" y="0.0" width="78" height="34.333333333333336"/>
+                                                <rect key="frame" x="180.33333333333331" y="0.0" width="78" height="42.666666666666664"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Submit">
                                                     <color key="baseBackgroundColor" red="0.55961236031517925" green="0.70544520911482189" blue="0.6881275185830823" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -57,21 +51,21 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="3KI-fV-Ksk">
-                                        <rect key="frame" x="0.0" y="252.66666666666666" width="260" height="34.333333333333343"/>
+                                        <rect key="frame" x="67.666666666666657" y="231" width="257.66666666666674" height="42.666666666666686"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xzd-LI-gbY">
-                                                <rect key="frame" x="0.0" y="0.0" width="10.333333333333334" height="34.333333333333336"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="10.333333333333334" height="42.666666666666664"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Withdraw" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QBO-wy-mza">
-                                                <rect key="frame" x="50.333333333333336" y="0.0" width="91.666666666666657" height="34.333333333333336"/>
+                                                <rect key="frame" x="50.333333333333336" y="0.0" width="89.333333333333314" height="42.666666666666664"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hm0-aT-LL8">
-                                                <rect key="frame" x="182" y="0.0" width="78" height="34.333333333333336"/>
+                                                <rect key="frame" x="179.66666666666669" y="0.0" width="78" height="42.666666666666664"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Submit">
                                                     <color key="baseBackgroundColor" red="0.55961236029999994" green="0.70544520909999997" blue="0.68812751859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -83,25 +77,42 @@
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please Enter An Amount!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kuo-6e-ORh">
-                                        <rect key="frame" x="0.0" y="298" width="260" height="21"/>
+                                        <rect key="frame" x="83.666666666666686" y="282.66666666666669" width="226" height="85"/>
                                         <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="21"/>
                                         <color key="textColor" red="0.35715653246611651" green="0.45023016394845361" blue="0.43917764484906513" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Waiting For Entry..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Hf-3c-Z3w">
-                                        <rect key="frame" x="0.0" y="330" width="260" height="16"/>
+                                        <rect key="frame" x="129.66666666666669" y="376.66666666666669" width="133.66666666666669" height="42.666666666666686"/>
                                         <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="16"/>
                                         <color key="textColor" red="0.35715653250000001" green="0.45023016389999998" blue="0.43917764479999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wMd-h1-tHX">
-                                        <rect key="frame" x="0.0" y="357" width="260" height="200"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wMd-h1-tHX">
+                                        <rect key="frame" x="66.666666666666686" y="428.33333333333326" width="260" height="330.66666666666674"/>
                                     </imageView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="nWf-kP-JwY" firstAttribute="centerX" secondItem="sXU-kL-voS" secondAttribute="centerX" id="Fc1-ik-Zhn"/>
+                                    <constraint firstItem="nWf-kP-JwY" firstAttribute="centerY" secondItem="sXU-kL-voS" secondAttribute="centerY" id="k2J-dY-rKu"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.68471950657659508" green="0.86078912019729614" blue="0.84359313584606921" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="sXU-kL-voS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3CV-Do-BjE"/>
+                            <constraint firstItem="sXU-kL-voS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3bY-h4-opi"/>
+                            <constraint firstItem="sXU-kL-voS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8TV-Rr-4dg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sXU-kL-voS" secondAttribute="trailing" id="GN0-it-ssR"/>
+                            <constraint firstItem="kuo-6e-ORh" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.1" id="GcY-x5-vdE"/>
+                            <constraint firstItem="RA6-yV-1SK" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.2" id="IXM-XM-gPd"/>
+                            <constraint firstItem="2Hf-3c-Z3w" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.05" id="Rdd-it-Zsu"/>
+                            <constraint firstItem="nWf-kP-JwY" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.05" id="drR-ye-IcE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sXU-kL-voS" secondAttribute="bottom" id="pvR-1N-SnS"/>
+                            <constraint firstItem="3KI-fV-Ksk" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.05" id="sRk-QD-FzE"/>
+                            <constraint firstItem="sXU-kL-voS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="y3P-Ab-bfQ"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="depositOutlet" destination="0dI-iE-LbI" id="JRn-5g-8LB"/>

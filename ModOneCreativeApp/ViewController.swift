@@ -28,9 +28,15 @@ class ViewController: UIViewController {
         
       var withdraw = withdrawOutlet.text!
         if let w = Double(withdraw){
-            money = money - w
-            headingOutlet.text = "Your Balance Is:"
-            displayOutlet.text = "$\(money)"
+            if w>money{
+                headingOutlet.text = "You Don't Have The Cash!"
+                displayOutlet.text = "Please Enter Valid Amount"
+            }
+            else{
+                money = money - w
+                headingOutlet.text = "Your Balance Is:"
+                displayOutlet.text = "$\(money)"
+            }
         }
         else{
             print("Error")
